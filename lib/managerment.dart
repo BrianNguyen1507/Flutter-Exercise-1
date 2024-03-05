@@ -39,7 +39,10 @@ class _ManagermentState extends State<Managerment> {
           children: [
             const Align(
               alignment: Alignment.center,
-              child: Text("STAFF INFORMATION", style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),),
+              child: Text(
+                "STAFF INFORMATION",
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              ),
             ),
             SizedBox(
               width: double.infinity,
